@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const CardItemContainer = styled.div`
+  max-width: 100%;
+  background-color: #ffffff;
+`
+
 export const CardImage = styled.img`
   width: 100%;
 `
