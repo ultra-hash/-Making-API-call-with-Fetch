@@ -7,15 +7,21 @@ export const OuterContainer = styled.div`
   align-items: center;
 `
 export const InnerContainer = styled.ul`
+  flex-grow: 1;
   background-color: #eef4f7;
   width: 100%;
   max-width: 800px;
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   list-style-type: none;
   padding: 0;
+`
+
+export const ListItem = styled.li`
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 `
 
 export const ResultContainer = styled.ul`

@@ -6,6 +6,7 @@ import './App.css'
 import {
   OuterContainer,
   InnerContainer,
+  ListItem,
   ResultContainer,
   Heading,
   LoaderContainer,
@@ -41,7 +42,7 @@ class App extends Component {
           <li>
             <Heading>Travel Guide</Heading>
           </li>
-          <li>
+          <ListItem>
             {!isLoading && (
               <ResultContainer>
                 {destinationList.map(item => (
@@ -62,7 +63,7 @@ class App extends Component {
                 />
               </LoaderContainer>
             )}
-          </li>
+          </ListItem>
         </InnerContainer>
       </OuterContainer>
     )
